@@ -1,0 +1,107 @@
+/* Body */
+
+body {
+    color:#555;
+    background-color:rgb(255, 225, 254);
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-top: 30px; /* Agregar espacio en la parte superior */
+    padding: 5px;
+    padding-bottom: 10px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(249, 213, 248); /* Color de fondo del encabezado */
+    }
+
+h2 {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Lobster', cursive; /* Aplica la fuente Roboto */
+    color: #555;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+/* Tabla */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5;
+}
+
+th /* Fila 1*/ {
+    background-color: rgb(249, 213, 248);
+    color: #555;
+    padding: 12px;
+    text-align: center;
+}
+
+td /* Fila 2*/ {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Línea separatoria */
+.table-container table:nth-child(1) {
+    border-right: 2px solid rgb(255, 225, 254);
+}
+.table-container table:nth-child(3) {
+    border-left: 2px solid rgb(255, 225, 254);
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(249, 213, 248); /* Color de fondo del encabezado */
+}
+
+nav a /* Estilos para el enlace "Inicio" */ {
+    text-decoration: none;
+    color: rgb(247, 121, 241); /* Color azul */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado interno */
+    border: 2px solid rgb(247, 121, 241); /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave */
+    
+}
+
+nav a:hover {
+    background-color: rgb(255, 225, 254); /* Cambiar color de fondo al pasar el mouse */
+    color: rgb(247, 121, 241)s; /* Cambiar color de texto al pasar el mouse */
+    
+}
