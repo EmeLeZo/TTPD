@@ -1,0 +1,91 @@
+/* Body */
+
+body {
+    color:#555;
+    background-color:rgb(255, 225, 254);
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-top: 30px; /* Agregar espacio en la parte superior */
+    padding: 5px;
+    padding-bottom: 10px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(249, 213, 248); /* Color de fondo del encabezado */
+    }
+
+h2 {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Lobster', cursive; /* Aplica la fuente Roboto */
+    color: #555;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+table {
+    width: 80%; /* Ancho de la tabla */
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+    border-collapse: collapse; /* Colapsar bordes de celdas */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+}
+
+
+/* Main-Tabla */
+
+td /* Estilos para las celdas*/ {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+}
+
+tr:nth-child(odd) /* Estilo alternativo para filas impares */ {
+    background-color: #f9f9f9; /* Color de fondo para filas impares */
+}
+
+td, th /* Estilo para texto centrado en celdas */ {
+    text-align: center; /* Centrar el texto */
+}
+
+td a /* Estilo para enlaces dentro de las celdas */ {
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    color: #757575; /* Color de texto para enlaces */
+}
+
+td a:hover /* Hover sobre enlaces */ {
+    color: rgb(247, 121, 241); /* Color de texto al pasar el mouse sobre enlaces */
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(249, 213, 248); /* Color de fondo del encabezado */
+}
+
+nav a /* Estilos para el enlace "Inicio" */ {
+    text-decoration: none;
+    color: rgb(247, 121, 241); /* Color azul */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado interno */
+    border: 2px solid rgb(247, 121, 241); /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave */
+    
+}
+
+nav a:hover {
+    background-color: rgb(255, 225, 254); /* Cambiar color de fondo al pasar el mouse */
+    color: rgb(247, 121, 241)s; /* Cambiar color de texto al pasar el mouse */
+    
+}
